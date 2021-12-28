@@ -2,7 +2,7 @@
 layout: post
 title: "Docker container network"
 subtitle: "How each container communicates"
-date: 2021-12-28 23:59:13 +0900
+date: 2021-12-27 23:59:13 +0900
 background: '/img/posts/01.jpg'
 categories: [kube15]
 ---
@@ -17,7 +17,7 @@ Docker의 Network 구조를 간단히 도식화 하면 그림1과 같이 표현 
 
  
 
-![**그림1**](resources/[Step4] 도커 네트워크 - Container간 통신하기/1.png)
+![**그림1**](./resources/[Step4] 도커 네트워크 - Container간 통신하기/1.png)
 
 **그림1**
 
