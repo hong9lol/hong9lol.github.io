@@ -17,7 +17,7 @@ Docker의 Network 구조를 간단히 도식화 하면 그림1과 같이 표현 
 
  
 
-![**그림1**](/resource/[Step4] 도커 네트워크 - Container간 통신하기/1.png)
+![**그림1**](/resources/[Step4] 도커 네트워크 - Container간 통신하기/1.png)
 
 **그림1**
 
@@ -59,7 +59,7 @@ $ docker run -it --rm --name net-tool --network my-network ubuntu bash
 
 [테스트 결과]
 
-![Untitled](/resource/[Step4] 도커 네트워크 - Container간 통신하기/2.png)
+![Untitled](/resources/[Step4] 도커 네트워크 - Container간 통신하기/2.png)
 
 1. 다른 네트워크를 갖는 ubuntu shell을 실행하고 nslookup과 curl로 테스트 합니다.  
 
@@ -69,4 +69,4 @@ docker run -it --rm --name net-tool --network **bridge** ubuntu bash
 
 [테스트 결과]
 
-![Untitled](/resource/[Step4] 도커 네트워크 - Container간 통신하기/3.png)
+![Untitled](/resources/[Step4] 도커 네트워크 - Container간 통신하기/3.png)
